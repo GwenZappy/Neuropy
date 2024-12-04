@@ -7,6 +7,12 @@ import queue
 import json
 import pandas as pd
 import streamlit as st
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # API Key
 from config import OPENAI_API_KEY
