@@ -13,3 +13,9 @@ tqdm>=4.65.0
 tokenizers<0.16.0
 transformers
 openai.error
+
+pyttsx3
+threading
+queue
+json
+streamlit
